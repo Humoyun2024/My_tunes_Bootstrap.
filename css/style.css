@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    width: 100px;
+    text-align: center;
+}
+
+.navbar li:hover{
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+
+.bg-img{
+    background-image: url(../img/img-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 897px;
+}
+
+.bg-text{
+    text-align: center;
+    color: white;
+    padding-top: 220px;
+}
+
+.Music{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.video button{
+    width: 150px;
+    height: 50px;
+}
+
+.move{
+    background-image: url(../img/img-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    color: white;
+}

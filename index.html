@@ -1,21 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>My Tunes</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="d-inline"><a href="#">myTunes</a></li>
-                <li class="d-inline"><a href="#">Overview</a></li>
-                <li class="d-inline"><a href="#">Music</a></li>
-                <li class="d-inline"><a href="#">Video</a></li>
-                <li class="d-inline"><a href="#">Gift Cards</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient w-100">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#myTunes">myTunes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#myTunes">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#Music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#Video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Gift Cards</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
+    <section id="myTunes">
+        <div class="bg-img">
+            <div class="container">
+                <div class="bg-text">
+                    <h1>myTunes.</h1>
+                    <br>
+                    <h4>Your music, movies, and TV shows take center stage</h4>
+                    <br>
+                    <p>myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have —
+                        and shop for the ones you want. <br> Enjoy all the entertainment myTunes has to offer on your
+                        Mac and PC.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Music" class="Music bg-dark bg-gradient text-light fs-4">
+        <br><br>
+        <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+                <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+              </svg><span class="fs-1">Music</span>
+              <br>
+              <br>
+              <h4>50 million songs. Zero ads.</h4>
+              <br>
+              <h6>Stream over 50 million songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes <br> library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no <br> commitment, and cancel anytime.</h6>
+              <br>
+              <button value="#myTunes" class="w-25 h-25 bg-danger bg-gradient text-light btn ">Start Your Trial Now</button>
+              <br><br>
+              <p>Orange Music is available in myTunes, and for iOS and Android devices.</p>
+              <br>
+              <img src="./img/img-2.png" alt="">
+        </div>
+    </section>
+    <section id="Video">
+        <br><br>
+        <div class="container video">
+            <h1>The movie and TV collection you always wished for. Granted.</h1>
+            <br>
+            <p>With over 100,000 movies and TV shows to choose from, there’s always something great to watch on <br> myTunes.1 And if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy episodes of <br> your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re <br> going somewhere you won’t have Wi-Fi.</p>
+            <br>
+            <button value="#myTunes" class="btn bg-primary bg-gradient">Learn More</button>
+            <br>
+            <br><img src="./img/img-3.png" alt="">
+        </div>
+    </section>
+    <section class="move">
+        <div class="container">
+            <br><br><br>
+            <h1>A world of entertainment. Available wherever you are.</h1>
+            <br>
+            <p>The myTunes Store is available on all your devices, which means you can buy that catchy song you just heard or rent that movie <br> you’ve been meaning to see, anytime you want. And since your entire library of music, movies, and TV shows lives in myCloud, <br> everything you buy is immediately available, no matter how you want to play it.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/img-5.png" alt="" width="600">
+                </div>
+                <div class="col">
+                    <br><br>
+                    <h1>Gift Cards</h1>
+                    <br><br>
+                    <p>Give friends and family an App Store & myTunes Gift Card and they can choose <br> anything from the App Store, the myTunes Store, and Orange Books,2 or put it <br> toward Orange Music subscriptions and myCloud storage plans. You can also <br> give them an Orange Store Gift Card that can be used to buy Orange hardware <br> and accessories at any Orange Store or at www.orange.com.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
